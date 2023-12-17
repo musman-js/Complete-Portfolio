@@ -492,6 +492,27 @@
 
 /* =======Section 1 Styling====== */
 .sec-1-about {
-    color:#494b71;
-    margin-left: 20%;
+    background-image: url('background-images/background.png');
+    background-size: cover;
+    background-position-x: right;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.about-heading {
+    color: #494b71;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width : 991px) {
+    .sec-1-about {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width : 767px) {
+    .sec-1-about {
+        padding-top: 160px;
+    }
 }
