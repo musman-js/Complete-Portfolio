@@ -491,11 +491,11 @@
 
 /* ====Section 3 About-Page====== */
 .sec-3-heading {
-    margin-top: -40px;
+    margin-top: -20px;
 }
 
 .sec-3-para {
-    margin-top: -50px;
+    margin-top: -70px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -646,6 +646,58 @@
         font-size: 16px;
     }
 }
+
+
+
+/* ======Section 5 About======= */
+.sec-5-icons{
+    margin-left: 20px;
+    width: 60px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.sec-6{
+    margin-top: -100px;
+}
+
+.sec-5-heading{
+    margin-top: -20px;
+}
+
+.sec-6-heading{
+    margin-top: 20px;
+}
+
+@media (max-width : 450px){
+    .sec-5-icons{
+        width: 55px;
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
+
+    .sec-5-heading{
+        margin-top: -90px;
+    }
+
+    .sec-6{
+        margin-top: -10px;
+    }
+}
+
+.sec-6-main{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* ======Footer Styling====== */
