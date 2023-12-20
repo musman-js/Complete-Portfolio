@@ -692,6 +692,69 @@
 
 
 
+/* *******************Project Page Styling********************* */
+
+/* ====Section 1===== */
+
+.sec-1-project {
+    background-image: url('background-images/background.png');
+    background-size: cover;
+    background-position-x: right;
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+.project-image {
+    width: 100%;
+}
+
+@media (min-width : 1200px) {
+    .project-image {
+        width: 75%;
+    }
+}
+
+@media (max-width : 991px) {
+    .project-image {
+        width: 100%;
+    }
+}
+
+
+/* =====section 2======= */
+.card-img-top {
+    width: 450px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.card-title {
+    margin-top: -70px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-text {
+    font-family: 'Lato';
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.card-btn {
+    background-color: #009bdf;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
 
 
 
