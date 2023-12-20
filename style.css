@@ -723,8 +723,7 @@
 
 /* =====section 2======= */
 .card-img-top {
-    width: 450px;
-    margin-left: -20px;
+    width:100%;
     margin-top: -20px;
 }
 
@@ -742,14 +741,30 @@
     font-family: 'Poppins';
     font-weight: 100;
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 
 .card-btn {
     background-color: #009bdf;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #623686;
+    transition: 0.4s;
 }
 
+.card-btn:hover {
+    background-color: #10268b;
+}
+
+.card-main{
+    margin-bottom: 50px
+}
+
+.myborder{
+    padding-bottom: 45px;
+}
 
 
 
