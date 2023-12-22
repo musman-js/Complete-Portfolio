@@ -766,7 +766,8 @@
 }
 
 .card-main {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    width: 550px;
 }
 
 .myborder {
@@ -784,80 +785,114 @@
     margin-right: 40px;
 }
 
+
+@media (max-width : 1320px) and (min-width : 991px) {
+    .card-main {
+        width: 420px;
+        height: 450px;
+    }
+
+    .sunshine-text{
+        margin-top: -13px;
+    }
+}
+
+
 @media (min-width: 768px) {
     .myborder {
         margin-right: 70px;
     }
 }
 
-    @media (max-width :1200px) {
-        .card-title {
-            margin-top: -60px;
-        }
+@media (max-width :1200px) {
+    .card-title {
+        margin-top: -60px;
     }
 
-    @media (max-width : 991px) {
-        .card-title {
-            margin-top: -50px;
-        }
+    .card-main {
+        width: 100%;
+    }
+}
+
+@media (max-width : 991px) {
+    .card-title {
+        margin-top: -100px;
     }
 
-    @media (max-width : 767px) {
-        .card-title {
-            margin-top: -60px;
-        }
-
-        .sec-2-project-main {
-            display: block;
-        }
-
-        .sec-2-project-main {
-            margin-right: 0px;
-        }
-
+    .sec-2-project-main {
+        display: block;
     }
 
-    @media (max-width : 490px) {
-        .card-title {
-            margin-top: -50px;
-        }
-
-        .card-text {
-            margin-right: 10px;
-        }
-
-        .sec-2-project-main {
-            margin-right: 0px;
-        }
-
+    .sec-3-main{
+        margin-top: -39px;
     }
 
-    @media (max-width : 400px) {
-        .card-title {
-            margin-top: -40px;
-        }
+    .card-main {
+        width: 100%;
+        height: 100%;
+    }
+}
 
-        .card-img-top {
-            margin-top: -5px;
-            width: 100%;
-        }
-
-        .card-text {
-            font-size: 15px;
-            margin-left: 15px;
-            margin-right: 10px;
-        }
-
-        .card-btn {
-            padding: 8px 15px 9px 15px;
-        }
-
-        .sec-2-project-main {
-            margin-right: 0px;
-        }
-
+@media (max-width : 767px) {
+    .card-title {
+        margin-top: -60px;
     }
 
+    .sec-2-project-main {
+        display: block;
+    }
+
+    .sec-2-project-main {
+        margin-right: 0px;
+    }
+
+    .card-main {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width : 490px) {
+    .card-title {
+        margin-top: -50px;
+    }
+
+    .card-text {
+        margin-right: 10px;
+    }
+
+    .sec-2-project-main {
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width : 400px) {
+    .card-title {
+        margin-top: -40px;
+    }
+
+    .card-img-top {
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .card-btn {
+        padding: 8px 15px 9px 15px;
+    }
+
+    .sec-2-project-main {
+        margin-right: 0px;
+    }
+
+}
 
 
 
@@ -870,111 +905,112 @@
 
 
 
-    /* ======Footer Styling====== */
-    .footer-main {
-        padding-top: 40px;
-        padding-bottom: 25px;
+
+/* ======Footer Styling====== */
+.footer-main {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.folow-me {
+    font-family: 'Lato';
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.footer-icons {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.footer-icons a {
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: purple;
+}
+
+.insta {
+    color: black;
+}
+
+.fb {
+    color: black;
+    margin-left: -30px;
+}
+
+.github {
+    color: black;
+}
+
+.linkedin {
+    color: black;
+}
+
+
+.linkedin:hover {
+    color: #1d73ca;
+}
+
+.fb:hover {
+    color: #1d73ca;
+}
+
+.insta:hover {
+    color: #fc1e45;
+}
+
+.rights {
+    margin-top: 30px;
+}
+
+.created {
+    margin-top: -20px;
+}
+
+.madeby {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+@media (max-width : 400px) {
+    .footer-icons {
+        font-size: 27px;
+    }
+
+    .line {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .fb {
+        margin-left: -20px;
     }
 
     .folow-me {
-        font-family: 'Lato';
-        font-family: 'Poppins';
-        font-size: 30px;
+        font-size: 25px;
     }
 
+    .created {
+        font-size: 21px;
+    }
+
+    .madeby {
+        font-size: 21px;
+    }
+}
+
+@media (max-width : 360px) {
     .footer-icons {
-        font-size: 30px;
-        margin-left: 40px;
-    }
-
-    .footer-icons a {
-        text-decoration: none;
+        font-size: 25px;
+        margin-left: 30px;
     }
 
     .line {
         margin-left: 20px;
         margin-right: 20px;
-        color: purple;
     }
-
-    .insta {
-        color: black;
-    }
-
-    .fb {
-        color: black;
-        margin-left: -30px;
-    }
-
-    .github {
-        color: black;
-    }
-
-    .linkedin {
-        color: black;
-    }
-
-
-    .linkedin:hover {
-        color: #1d73ca;
-    }
-
-    .fb:hover {
-        color: #1d73ca;
-    }
-
-    .insta:hover {
-        color: #fc1e45;
-    }
-
-    .rights {
-        margin-top: 30px;
-    }
-
-    .created {
-        margin-top: -20px;
-    }
-
-    .madeby {
-        font-family: 'Dancing Script', cursive;
-        font-size: 25px;
-    }
-
-    @media (max-width : 400px) {
-        .footer-icons {
-            font-size: 27px;
-        }
-
-        .line {
-            margin-left: 15px;
-            margin-right: 15px;
-        }
-
-        .fb {
-            margin-left: -20px;
-        }
-
-        .folow-me {
-            font-size: 25px;
-        }
-
-        .created {
-            font-size: 21px;
-        }
-
-        .madeby {
-            font-size: 21px;
-        }
-    }
-
-    @media (max-width : 360px) {
-        .footer-icons {
-            font-size: 25px;
-            margin-left: 30px;
-        }
-
-        .line {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-    }
+}
