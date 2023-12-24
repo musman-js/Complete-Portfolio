@@ -8,7 +8,7 @@
 
 /* =====Navbar Styling===== */
 .mynavbar {
-    background-color: #2a2c40;
+    background-color: #2a2c37;
     transition: 0.5s;
 }
 
@@ -100,12 +100,12 @@
     text-decoration: none;
     text-align: center;
     font-size: 17px;
-    color: wheat !important;
+    color: #F1CCC2 !important;
 }
 
 .hireme:hover {
-    color: #fff9 !important;
-    text-decoration: underline 3px #fff9;
+    color: #e0e0e0!important;
+    text-decoration: underline 3px #e0e0e0;
 }
 
 
@@ -303,6 +303,12 @@
     color: #2a2c39;
 }
 
+@media (max-width : 991px) and (min-width : 768px){
+    .sec-2-para p{
+        margin-top:50px ;
+    }
+}
+
 @media (max-width : 567px) {
     .sec-2-para {
         font-size: 15px;
@@ -454,8 +460,8 @@
     margin-right: 40px;
     margin-top: 60px;
     font-weight: 100;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif; */
 }
 
 .about-gif {
@@ -469,6 +475,7 @@
     .sec-2-para-text {
         margin-top: 0px;
         margin-bottom: 4rem;
+        margin-right: 10px;
     }
 }
 
@@ -648,6 +655,65 @@
 
     .skill-bar span {
         font-size: 16px;
+    }
+}
+
+
+
+/* ======Section 5====== */
+.language-img {
+    margin-bottom: 15px;
+    width: 220px;
+    border: 1px solid;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    background-color: #2a2c40;
+}
+
+.mongodb-img {
+    border: 1px solid;
+    width: 224px;
+    padding-top: 40px;
+    padding-left: 80px;
+    background-color: #2a2c40;
+    padding-bottom: 40px;
+    padding-right: 80px;
+    margin-bottom: 14px;
+}
+
+.express-img {
+    border: 1px solid;
+    width: 222px;
+    padding-top: 40px;
+    padding-left: 50px;
+    background-color: #2a2c40;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    margin-bottom: 14px;
+}
+
+
+@media (max-width :450px) {
+    .language-img {
+        width: 180px;
+    }
+
+    .express-img {
+        width: 180px;
+    }
+
+    .mongodb-img {
+        width: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .sec-5-main{
+        margin-top: -39px;
     }
 }
 
@@ -1001,6 +1067,7 @@
     color: #fff;
     margin-bottom: 60px;
     transition: 0.5s;
+    border-radius: 5px;
 }
 
 .sec-3-btn button:hover {
@@ -1022,18 +1089,6 @@
         padding: 8px 38px 8px 39px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ======Footer Styling====== */
