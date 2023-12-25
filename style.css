@@ -104,7 +104,7 @@
 }
 
 .hireme:hover {
-    color: #e0e0e0!important;
+    color: #e0e0e0 !important;
     text-decoration: underline 3px #e0e0e0;
 }
 
@@ -303,9 +303,9 @@
     color: #2a2c39;
 }
 
-@media (max-width : 991px) and (min-width : 768px){
-    .sec-2-para p{
-        margin-top:50px ;
+@media (max-width : 991px) and (min-width : 768px) {
+    .sec-2-para p {
+        margin-top: 50px;
     }
 }
 
@@ -460,8 +460,6 @@
     margin-right: 40px;
     margin-top: 60px;
     font-weight: 100;
-    /* font-family: 'Dancing Script', cursive;
-    font-family: 'Inter', sans-serif; */
 }
 
 .about-gif {
@@ -712,7 +710,7 @@
         padding-right: 60px;
     }
 
-    .sec-5-main{
+    .sec-5-main {
         margin-top: -39px;
     }
 }

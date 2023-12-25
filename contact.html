@@ -4,7 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact</title>
+    <title>Porfolio | Contact</title>
+    <!-- Firebase Link -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <!-- Animated Css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Bootstrap Css Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -153,11 +158,14 @@
                 <hr style="border: 1px solid black;">
                 <div class="footer-icons" style="font-size: 35px;">
                     <a href="https://www.facebook.com/profile.php?id=100063423567314" target="_blank"><i
-                            class="fa-brands fa-facebook icons fb"></i> <span class="line"></span> </a>
+                            class="fa-brands fa-facebook icons fb" style="color: #1d73ca;"></i> <span
+                            class="line"></span> </a>
+                    <a href="https://www.instagram.com/usman.___here/?hl=en" target="_blank"><i
+                            class=" fa-brands fa-instagram icons insta" style="color: red;"></i><span
+                            class="line"></span></a>
                     <a href="https://www.linkedin.com/in/muhammad-usman-772296294/" target="_blank"><i
-                            class="fa-brands fa-linkedin icons linkedin"></i> <span class="line"></span></a>
-                    <a href="https://www.instagram.com/usman.___here/?hl=en" target="_blank""><i
-                            class=" fa-brands fa-instagram icons insta"></i><span class="line"></span></a>
+                            class="fa-brands fa-linkedin icons linkedin" style="color: #1d73ca;"></i> <span
+                            class="line"></span></a>
                     <a href="https://github.com/musman-js" target="_blank"><i
                             class="fa-brands fa-github icons github"></i></a>
                 </div>
@@ -180,14 +188,14 @@
 
             <main class="text-center">
                 <div class="sec-3-input">
-                    <input type="text" placeholder="Enter name">
-                    <input type="email" placeholder="Enter email">
+                    <input type="text" placeholder="Enter name" id="name">
+                    <input type="email" placeholder="Enter email" id="email">
                 </div>
                 <div>
-                    <textarea name="" id="" class="sec-3-textarea" placeholder="Enter Message"></textarea>
+                    <textarea id="message" class="sec-3-textarea" placeholder="Enter Message..."></textarea>
                 </div>
                 <div class="sec-3-btn">
-                    <button>Submit</button>
+                    <button onclick="getValue()">Submit</button>
                 </div>
             </main>
         </div>
@@ -232,7 +240,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Bootstrap Js Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
