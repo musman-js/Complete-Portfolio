@@ -30,7 +30,7 @@ let getValue = () => {
         alert('Please enter message')
     }
 
-    else {
+    else{
         let obj = {
             name: name.value,
             email: email.value,
@@ -39,28 +39,28 @@ let getValue = () => {
 
         Swal.fire({
             title: "Your Message has Sent!",
-            text: "I will response you soon.",
+            text : "I will response you soon." ,
             showClass: {
-                popup: `
+              popup: `
                 animate__animated
                 animate__fadeInUp
                 animate__faster
               `
             },
             hideClass: {
-                popup: `
+              popup: `
                 animate__animated
                 animate__fadeOutDown
                 animate__faster
               `
             }
-        });
+          });
 
         firebase.database().ref('user-information').push(obj);
         name.value = ""
         email.value = ""
         message.value = ""
     }
-
-
-}
+    
+       
+    }
