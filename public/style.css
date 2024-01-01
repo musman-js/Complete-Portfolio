@@ -295,13 +295,12 @@
 }
 
 .sec-2-para {
-    /* font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'PT Sans', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
     font-size: 17px;
-    color: black;
-    /* font-weight: 500; */
+    color: #2a2c39;
 }
 
 @media (max-width : 991px) and (min-width : 768px) {
@@ -460,6 +459,7 @@
 .sec-2-para-text {
     margin-right: 40px;
     margin-top: 60px;
+    font-weight: 600;
 }
 
 .about-gif {
@@ -474,16 +474,12 @@
         margin-top: 0px;
         margin-bottom: 4rem;
         margin-right: 10px;
-        font-weight: 500;
-
     }
 }
 
 @media (max-width : 1199px) and (min-width :991px) {
     .sec-2-para-text {
         margin-top: 1px;
-        font-weight: 500;
-        color: black;
     }
 }
 
@@ -665,29 +661,29 @@
 /* ======Section 5====== */
 .language-img {
     margin-bottom: 15px;
-    width: 220px;
+    width: 165px;
     border: 1px solid;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-right: 40px;
+    padding-right: 50px;
     background-color: #2a2c40;
 }
 
 .mongodb-img {
     border: 1px solid;
-    width: 224px;
+    width: 170px;
     padding-top: 40px;
-    padding-left: 80px;
+    padding-left: 70px;
     background-color: #2a2c40;
     padding-bottom: 40px;
-    padding-right: 80px;
+    padding-right: 70px;
     margin-bottom: 14px;
 }
 
 .express-img {
     border: 1px solid;
-    width: 222px;
+    width: 165px;
     padding-top: 40px;
     padding-left: 50px;
     background-color: #2a2c40;
@@ -697,17 +693,17 @@
 }
 
 
-@media (max-width :450px) {
+@media (max-width :550px) {
     .language-img {
-        width: 180px;
+        width: 150px;
     }
 
     .express-img {
-        width: 180px;
+        width: 150px;
     }
 
     .mongodb-img {
-        width: 180px;
+        width: 150px;
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 60px;
