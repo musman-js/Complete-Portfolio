@@ -758,6 +758,62 @@
 }
 
 
+.sec-6-para {
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.sec-6-h3 {
+    margin-top: -30px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .sec-6-h3 {
+        font-size: 22px;
+        margin-top: -35px;
+    }
+
+    .sec-6-para {
+        font-size: 15px;
+    }
+}
+
+.hobbies-gif {
+    width: 100%;
+
+}
+
+@media (max-width : 20000px) and (min-width : 1201px) {
+    .hobbies-gif {
+        width: 75%;
+        margin-left: 6em;
+        margin-top: -99px;
+    }
+}
+
+@media (max-width : 1199px) {
+    .hobbies-gif {
+        margin-top: -70px;
+        margin-left: 4em;
+    }
+}
+
+@media (max-width:991px) and (min-width : 768px) {
+    .hobbies-gif {
+        margin-left: 4em;
+        margin-top: -40px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 767px) {
+    .hobbies-gif {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}
 
 
 
@@ -969,6 +1025,22 @@
 /* **********************Contact Page Styling***************************** */
 
 /* =====Section 1====== */
+.contact-image {
+    width: 70%;
+}
+
+@media (min-width : 1200px) {
+    .contact-image {
+        width: 60%;
+    }
+}
+
+@media (max-width : 991px) {
+    .contact-image {
+        width: 100%;
+    }
+}
+
 @media (max-width : 767px) {
     .contact-image {
         width: 80%;
