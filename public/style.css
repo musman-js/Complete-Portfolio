@@ -459,7 +459,7 @@
 .sec-2-para-text {
     margin-right: 40px;
     margin-top: 60px;
-    font-weight: 100;
+    font-weight: 540;
 }
 
 .about-gif {
@@ -468,6 +468,11 @@
 }
 
 
+@media(max-width : 400px){
+    .sec-2-para-text{
+        font-weight: 600;
+    }
+}
 
 @media (max-width :767px) {
     .sec-2-para-text {
@@ -900,7 +905,7 @@
     padding-bottom: 45px;
     border: none;
     border-radius: 5px;
-    background-color: #2a2c35;
+    background-color: #333444;
     margin-bottom: 10px;
 }
 
