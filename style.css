@@ -859,13 +859,13 @@
     font-size: 22px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    color: #e0e0e0;
+    color: black;
     transition: 0.5s;
 }
 
-.card-title:hover {
+/* .card-title:hover {
     color: plum;
-}
+} */
 
 .card-text {
     font-family: 'Lato';
@@ -874,7 +874,7 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 30px;
-    color: #aaabb1;
+    color: #2a2c30;
 }
 
 .card-btn {
@@ -888,7 +888,7 @@
 }
 
 .card-btn:hover {
-    background-color: #10268b;
+    background-color: purple;
 }
 
 .card-main {
@@ -898,9 +898,10 @@
 
 .myborder {
     padding-bottom: 45px;
-    border: none;
+    border: 1px solid #aaabb1 ;
+    box-shadow: 2px 2px 2px 3px #aaabb1;
     border-radius: 5px;
-    background-color: #2a2c35;
+    /* background-color: #2a2c35; */
     margin-bottom: 10px;
 }
 
